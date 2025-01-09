@@ -1,5 +1,6 @@
 import React from 'react'
 import { logo } from "../../assets/index"
+import { FaFacebookF } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -7,7 +8,9 @@ const Navbar = () => {
             <div>
                 <img src={logo} alt='logo' />
             </div>
-            <div></div>
+            <div>
+                <FaFacebookF />
+            </div>
         </div>
     )
 }
